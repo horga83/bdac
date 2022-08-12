@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Bdac
+GenericName=Bafang Configuration Application
+Comment=Application for configuring Bafang BBSXX ebike controller settings
+Exec=/usr/local/bin/bdac
+Icon=bdac.png
+StartupNotify=true
+Terminal=false
+Type=Application
+Categories=Utilities;TerminalEmulator;
+Name[en_US]=bdac.desktop

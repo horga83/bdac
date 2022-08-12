@@ -1,0 +1,33 @@
+#!/bin/bash 
+if [ $TERM == "linux" ]; then
+    exit
+fi
+
+TERMINAL=1
+
+# We get here if we are running under X11
+case "$TERMINAL" in
+    1)
+        if [ -f "/usr/bin/gnome-terminal" ]; then
+            gnome-terminal -t Bdac --geometry=90x30 -- /usr/local/bin/bdac.py $@
+            exit
+        fi
+        ;;    
+    2)
+        if [ -f "/usr/bin/mate-terminal" ]; then
+            mate-terminal -t Bdac --geometry=90x30 -- /usr/local/bin/bdac.py $@
+            exit    
+        fi
+        ;;    
+    3)
+        if [ -f "/usr/bin/xfce4-terminal" ]; then
+            xfce4-terminal --title=Bdac --geometry=90x30 -e /usr/local/bin/bdac.py $@
+            exit    
+        fi
+        ;;
+    4)
+        # add your custom terminal here
+        exit
+        ;;
+esac
+
