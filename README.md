@@ -36,4 +36,11 @@ Uninstalling:
 -------------
   - The installation will put an uninstall.sh script in /usr/local/share/bdac.
   - Run this file as root.
-  
+
+Screenshots:
+------------
+![bdac-intro](https://user-images.githubusercontent.com/2425304/184456870-12a70d51-3a93-47cb-bf87-eaf6e2f7feee.png)
+![bdac-main-menu](https://user-images.githubusercontent.com/2425304/184456879-ba20e54a-936b-432f-8472-bf6a71209854.png)
+![bdac-config-example](https://user-images.githubusercontent.com/2425304/184456890-e6590d94-01c6-4251-8834-93a620434059.png)
+![bdac-help](https://user-images.githubusercontent.com/2425304/184456898-4db92ab6-9cd4-43cc-ae82-445a09d14fca.png)
+
