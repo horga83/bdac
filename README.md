@@ -29,7 +29,7 @@ Features:
   
 Installation:
 -------------
-  - Download the bdac-install.tar.gz file from here.
+  - Download the bdac-install.tar.gz file from https://www.cowlug.org/Downloads/bdac-install.tar.gz or just get the files from github
   - Untar the file and run the install.sh script as root or with sudo.
   
 Uninstalling:
