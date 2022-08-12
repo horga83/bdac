@@ -14,6 +14,7 @@ Features:
 ---------
   - Runs under Linux in a console of the appropriate size.
   - Reads the Basic, Pedal Assist and Throttle Handle areas from the controller.
+  - Will run with test data if no serial connection found.
   - Can read a *.bdac file with all controller settings.
   - Can save a *.bdac file with all controller settings.
   - Allows you to change setting via menu interface.
