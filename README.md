@@ -22,7 +22,7 @@ Features:
   - Will only write changed settings areas to save writing flash that's not changed.
   - Saves a time and date stamped *.bdac file everytime you write to the controller.
   - Saves a log (bdac.log) of all communications between the PC and controller.
-  - displays human readable list of areas and settings.
+  - Displays human readable list of areas and settings.
   - Has help text for each setting by hitting the 'h' key.
   - Complete install and uninstall scripts.
   - badc.desktop and icon files to also run from X or Wayland desktop.
